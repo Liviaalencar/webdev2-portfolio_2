@@ -1,0 +1,1163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F1F0F0;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #ffd59f;
+    height: 64px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 305px;
+    margin: 0 auto;
+    clear: both;
+}
+
+img {
+    position: relative;
+    left: 345px;
+    width: 600px;
+    margin: 40px;
+}
+
+.welcome {
+    margin: 0px 90px 50px 90px;
+}
+
+
+
+
+
+
+/****************** Nav styles starts ******************/
+
+.main-nav > li {
+    display: inline-block;
+    margin-left: 73px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    text-decoration-line: underline overline;
+  }
+
+ .main-nav a {
+    font-size: 22px;
+    color: #bd6985;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+  }
+
+.main-nav .tools a {
+    text-align: center;
+    font-size: 21px;
+    color: #bd6985;
+    display: block;
+    margin: 5px 20px 5px 20px;
+    text-decoration: none;
+  }
+
+.main-nav a:hover {
+    color: #eb901a;
+  }
+
+
+/****************** Nav styles finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** Dropdown starts ******************/
+
+.main-nav,
+.drop-nav {
+    left: 0px;
+    display: block;
+}
+
+.dropdown,
+.tools {
+    position: relative;
+}
+
+.drop-nav {
+    padding-top: 21px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: #ffd59f;
+}
+
+.drop-nav li {
+    border-right: 1px ridge #bd6985;
+    border-left: 1px ridge #bd6985;
+    border-top: 6px dashed #F1F0F0;
+}
+
+.dropdown:hover > .drop-nav,
+.tools:hover {
+    display: block;
+}
+
+.tools:hover a,
+.tools-nav {
+    color: #eb901a;
+}
+
+
+/****************** Dropdown finishes ******************/
+
+
+
+
+
+
+
+
+/******************** Home page starts ******************/
+
+.welcome {
+    position: relative;
+    width: auto;
+    padding: 25px;
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+
+.welcome h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: serif;
+    padding: 30px;
+}
+
+.welcome p {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 100px 50px 90px;
+}
+
+
+/****************** Home page finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** About Us starts ******************/
+
+
+.aboutus {
+    position: relative;
+    width: auto;
+    padding: 25px;
+    margin-bottom: 130px;
+    margin-top: 50px;
+}
+
+th {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    font-family: serif;
+    padding: 30px;
+}
+
+td {
+    text-align: center;
+    font-size: 23px;
+    padding: 20px 100px 50px 90px;
+}
+
+td p {
+    padding: 5px 55px;
+}
+
+#photoofme {
+    box-shadow: 0px 4px 20px 1px #000000;
+    border-radius: 100%;
+    float: left;
+    left: 10%;
+    width: 350px;
+}
+
+#photoofme:hover {
+  transform: scaleX(-1);
+} /*https://www.w3schools.com/css/tryit.asp?filename=trycss_image_flip*/
+
+#arrow:before {
+    content: ' \2190';
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 15px;
+}
+
+
+/****************** About Us finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** Instagram starts ******************/
+
+
+.Instagramtool {
+    position: relative;
+    padding: 25px;
+    height: 4689px;
+    margin: 20px 100px 10px 100px;
+}
+
+.Instagramtoolheading {
+    position: -webkit-sticky; /* the source for it is https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky*/
+    position: sticky;
+    top: 65px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffb99f;
+    border-radius: 10px;
+}
+
+.Instagramtoolheading img {
+    width: 150px;
+    left: 10px;
+}
+
+.Instagramtoolheading h1 {
+    margin: 0 0 30px 55px;
+}
+
+.Instagramtoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Instagramtoolinfo h2 {
+    text-decoration: underline;
+    margin: 30px 0 15px 70px;
+}
+
+.Instagramtoolinfo p {
+    display: block;
+    margin: 0 5px 22px 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.Instagramtool a {
+    color: #bd6985;
+    text-decoration-line: overline underline;
+}
+
+.Instagramtool ul {
+    text-indent: 70px;
+    list-style-type: disc;
+}
+
+.Instagramtool li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/****************** Instagram finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** Pinterest starts ******************/
+
+.Pinteresttool {
+    position: relative;
+    padding: 25px;
+    height: 2260px;
+    margin: 20px 100px 10px 100px;
+}
+
+.Pinteresttoolheading {
+    position: -webkit-sticky; /* the source for it is https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky*/
+    position: sticky;
+    top: 65px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffb99f;
+    border-radius: 10px;
+}
+
+.Pinteresttoolheading img {
+    width: 220px;
+    left: -23px;
+}
+
+.Pinteresttoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Pinteresttoolheading h1 {
+    margin: 0px 30px 30px 66px;
+}
+
+.Pinteresttoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Pinteresttoolinfo h2 {
+    text-decoration: underline;
+    margin: 30px 0 15px 70px;
+}
+
+.Pinteresttoolinfo p {
+    display: block;
+    margin: 0 5px 22px 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.Pinteresttool a {
+    color: #bd6985;
+    text-decoration-line: overline underline;
+}
+
+.Pinteresttool ul {
+    text-indent: 70px;
+    list-style-type: disc;
+}
+
+.Pinteresttool li {
+    
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/****************** Pinterest finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** Snapchat starts ******************/
+
+.Snapchattool {
+    position: relative;
+    padding: 25px;
+    height: 2789px;
+    margin: 20px 100px 10px 100px;
+}
+
+.Snapchattoolheading {
+    position: -webkit-sticky; /* the source for it is https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky*/
+    position: sticky;
+    top: 65px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffb99f;
+    border-radius: 10px;
+}
+
+.Snapchattoolheading img {
+    width: 150px;
+    left: 10px;
+}
+
+.Snapchattoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Snapchattoolheading h1 {
+    margin: 0px 30px 30px 59px;
+}
+
+.Snapchattoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Snapchattoolinfo h2 {
+    text-decoration: underline;
+    margin: 30px 0 15px 70px;
+}
+
+.Snapchattoolinfo p {
+    display: block;
+    margin: 0 5px 22px 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.Snapchattool a {
+    color: #bd6985;
+    text-decoration-line: overline underline;
+}
+
+.Snapchattool ul {
+    text-indent: 70px;
+    list-style-type: disc;
+}
+
+.Snapchattool li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/****************** Snapchat finishes ******************/
+
+
+
+
+
+
+
+
+
+
+
+/****************** Tiktok starts ******************/
+
+.Tiktoktool {
+    position: relative;
+    padding: 25px;
+    height: 3606px;
+    margin: 20px 100px 10px 100px;
+}
+
+.Tiktoktoolheading {
+    position: -webkit-sticky; /* the source for it is https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky*/
+    position: sticky;
+    top: 65px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffb99f;
+    border-radius: 10px;
+}
+
+.Tiktoktoolheading img {
+    width: 190px;
+    top: 25px;
+    left: -12px;
+}
+
+.Tiktoktoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Tiktoktoolheading h1 {
+    margin: 60px 0px 0px 78px;
+}
+
+.Tiktoktoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Tiktoktoolinfo h2 {
+    text-decoration: underline;
+    margin: 30px 0 15px 70px;
+}
+
+.Tiktoktoolinfo p {
+    display: block;
+    margin: 0 5px 22px 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.Tiktoktool a {
+    color: #bd6985;
+    text-decoration-line: overline underline;
+}
+
+.Tiktoktool ul {
+    text-indent: 70px;
+    list-style-type: disc;
+}
+
+.Tiktoktool li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/****************** Tiktok finishes ******************/
+
+
+
+
+
+
+
+
+
+
+
+/****************** WhatsApp starts ******************/
+.WhatsApptool {
+    position: relative;
+    padding: 25px;
+    height: 3525px;
+    margin: 20px 100px 10px 100px;
+}
+
+.WhatsApptoolheading {
+    position: -webkit-sticky; /* the source for it is https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky*/
+    position: sticky;
+    top: 65px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffb99f;
+    border-radius: 10px;
+}
+
+.WhatsApptoolheading img {
+    width: 150px;
+    left: 10px;
+}
+
+.WhatsApptoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.WhatsApptoolheading h1 {
+    margin: 0px 30px 30px 59px;
+}
+
+.WhatsApptoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.WhatsApptoolinfo h2 {
+    text-decoration: underline;
+    margin: 30px 0 15px 70px;
+}
+
+.WhatsApptoolinfo p {
+    display: block;
+    margin: 0 5px 22px 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.WhatsApptool a {
+    color: #bd6985;
+    text-decoration-line: overline underline;
+}
+
+.WhatsApptool ul {
+    text-indent: 70px;
+    list-style-type: disc;
+}
+
+.WhatsApptool li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/****************** WhatsApp finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** Twitter starts ******************/
+
+
+.Twittertool {
+    position: relative;
+    padding: 25px;
+    height: 2998px;
+    margin: 20px 100px 10px 100px;
+}
+
+.Twittertoolheading {
+    position: -webkit-sticky; /* the source for it is https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky*/
+    position: sticky;
+    top: 65px;
+    float: left;
+    height: 300px;
+    width: 250px;
+    border: 5px solid #ffb99f;
+    border-radius: 10px;
+}
+
+.Twittertoolheading img {
+    width: 160px;
+    left: 3px;
+}
+
+.Twittertoolheading h1 {
+    margin: 0 0 0 72px;
+}
+
+.Twittertoolinfo {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+    float: right;
+    width: 730px;
+    padding: 0 25px 0 25px;
+}
+
+.Twittertoolinfo h2 {
+    text-decoration: underline;
+    margin: 30px 0 15px 70px;
+}
+
+.Twittertoolinfo p {
+    display: block;
+    margin: 0 5px 22px 10px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.Twittertool a {
+    color: #bd6985;
+    text-decoration-line: overline underline;
+}
+
+.Twittertool ul {
+    text-indent: 70px;
+    list-style-type: disc;
+}
+
+.Twittertool li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+/****************** Twitter finishes ******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** Grid Starts ******************/
+
+.Gridcontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    padding: 25px;
+    height: 680px;
+    margin: 30px 100px 10px 100px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ffb99f;
+    height: 540px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Grid-tool {
+    display: grid;
+    background-color: #ffd59f;
+    border: 4px solid #ffb99f;
+    padding: 30px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texto {
+    font-size: 19px;
+    padding: 10px 30px 0 30px;
+    border-left: 4px solid #ffbc64;
+    border-right: 4px solid #ffbc64;
+}
+
+.texto a {
+    text-decoration-line: overline underline;
+    
+    color: #bd6985;
+}
+
+#textottsnap {
+    padding-top: 40px;
+    border: 0px;
+}
+
+/****************** Grid finishes ******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** Contact Us/Form starts ****************/
+
+form, .results {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    margin-bottom: 130px;
+    margin-top: 50px;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+}
+
+#registration {
+    color: #000000;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    background: #ffbc64;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    
+}
+
+legend {
+    font-size: 19px;
+    color: #ffbc64;
+    background-color: #F1F0F0;
+    padding: 4px 4px 4px 5px;
+    border-radius: 5px;
+}
+
+.divA, .divB, .divC, .divD, .divE {
+    margin: 10px;
+}
+
+.divA input {
+    padding: 2px;
+    color: #000000;
+    position: absolute;
+    left: 155px;
+    width: 300px;
+}
+
+.divB input {
+    padding: 2px;
+    color: #000000;
+    position: absolute;
+    left: 155px;
+    width: 300px;
+}
+
+#country {
+    padding: 2px;
+    color: #000000;
+    position: absolute;
+    left: 155px;
+    height: 23px;
+    width: 308px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    width: 40%;
+    float: right;
+} 
+
+.radios {
+    clear: both;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffbc64;
+    border: outside;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#button {
+    background-color: #ffd59f;
+}
+
+#submit {
+    float: right;
+}
+
+#reset {
+    float: left;
+}
+
+.leftbutton, .rightbutton {
+    width: 50%;
+    float: left;
+}
+
+.comment {
+    padding: 0px 0px 0px 90px;
+}
+
+.comment2 {
+    padding: 0px 0px 0px 140px;
+}
+
+.comment3 {
+    padding: 10px 10px 3px 13px;
+}
+
+.comment4 {
+    padding: 10px 10px 3px 13px;
+}
+
+#thanks {
+    font-size: 20px;
+    padding-left: 135px;
+}
+
+
+/*************** Contact Us/Form finishes ***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** User Data starts ******************/
+
+.results {
+    color: #F1F0F0;
+}
+
+.results a {
+    color: #000000;
+}
+
+.results p {
+    color: #000000;
+    margin: 30px;
+}
+
+#userdata {
+    margin: 20px 0px 20px 0px;
+    background-color: ;
+    color: #000000;
+}
+
+/****************** User Data finishes ******************/
+
+
+
+
+
+
+
+
+
+
+/****************** Sitemap starts ******************/
+
+
+#sitemap {
+    position: relative;
+    font-family: sans-serif;
+    background-color: #ffd59f;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 25px;
+    border: 4px solid #ffb99f;
+    border-radius: 10px;
+}
+
+#sitemap li {
+    padding-left: 35px;
+    display: inline;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+#sitemap a  {
+    margin: 0px 10px 10px 0px;
+    color: #bd6985;
+    font-size: 17px;
+    text-decoration-line: overline underline;
+}
+
+#sitemap p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    padding-left: 200px;
+    letter-spacing: 1px;
+}
+
+#sitemap #a {
+    margin: 20px;
+    padding-left: 15px;
+    word-spacing: 39px;
+}
+
+#sitemap #b {
+    margin: 30px 20px 30px 20px;
+    padding-left: 1px;
+    word-spacing: 64px;
+}
+
+#sitemap #t {
+    padding-left: 11px;
+}
+
+#sitemap #c {
+    margin: 30px 20px 30px 20px;
+    padding-left: 0;
+    word-spacing: 203px;
+}
+
+#sitemap #d {
+    margin: 30px 20px 30px 20px;
+    padding-left: 98px;
+}
+
+
+/****************** Sitemap finishes ******************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** Footer starts ******************/
+
+#footer {
+    background-color: #ffd59f;
+    position: relative;
+    height: 160px;
+    padding-top: 20px;
+    margin-top: -100px;
+    clear: both;
+}
+
+#footer p {
+    font-size: 17px;
+    padding: 10px 0 15px 25px;
+    color: #000000;
+}
+
+#footer li {
+    padding-left: 35px;
+    display: inline;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+#footer a {
+    color: #bd6985;
+    font-size: 17px;
+    text-decoration-line: overline underline;
+}
+
+
+/****************** Footer finishes ******************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*social media hex colour
+https://brandcolors.net/
+https://brandcolors.net/b/whatsapp
+https://brandcolors.net/b/twitter
+https://brandcolors.net/b/instagram
+https://brandcolors.net/b/snapchat
+
+https://www.schemecolor.com/tiktok.php
+
+https://brandcolors.net/b/pinterest
+
+
+apart link:
+https://whatsappbrand.com/
+https://about.twitter.com/en_us/company/brand-resources.html
+
+https://www.snap.com/pt-BR/brand-guidelines/
+
+https://business.pinterest.com/en/pinterest-brand-guidelines
+*/
