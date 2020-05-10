@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Social Media For Dummies - Form results</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    
+    <body>
+        
+        <div class="results">
+            
+            <h1>Thank you for your message</h1>
+            
+            <p>I will be reading it soon and doing the update on the website to make it better for you and all the other users</p>
+            
+            <h3>Your submitted data:</h3>
+            
+            <div id="userdata"></div>        
+        
+            <p><a href="index.html">Return to home page</a></p>
+        
+        </div>
+        
+        <div id="userdata"></div>
+    
+        <script>
+        const dataList = document.getElementById("userdata")
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            dataList.append(`${name}: ${value}`)
+            dataList.append(document.createElement('br'))
+        })  
+    
+        </script> 
+            
+    </body>
+</html>
